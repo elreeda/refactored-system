@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* .section {
+  margin-bottom: 1.5rem;
+} */
+
+.section label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.section input {
+  width: 100%;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.logoContainer {
+  max-width: 400px;
+  margin: 0 auto 50px;
+}
+.logo {
+  width: 100%;
+}
+
+.container .form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.results {
+  margin-top: 2rem;
+  /* align-self: center; */
+}
+.resultValue {
+  font-size: 3.5rem;
+  line-height: 1.25;
+}
+.unit {
+  font-size: 1rem;
+  display: inline-block;
+  margin-left: 0.25rem;
+}
+.results span:last-child {
+  font-weight: bold;
+}
+
+.resultContent {
+  display: flex;
+  column-gap: 4rem;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
+
+.desc p {
+  margin: 0;
+  font-style: italic;
+  color: rgb(156 163 175);
+}
